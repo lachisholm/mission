@@ -1,15 +1,41 @@
 
+<!--
+
+Assignment Requirements 
+Start the page normally in light mode
+Add a dropdown for Light/Dark themeSelector
+Dynamically add/remove /dark class using JavaScript
+background color and text color should change
+Logo image should switch depending on themeSelector
+No permanent dark mode at page load
+Live server or GitHub pages testable
+
+then after it should be
+
+has no class="dark" manually
+you have the <select> with options
+your mission.js handles this perfectly
+CSS .dark {background color #333; } works
+Logo switches between blue and white versions
+Starts clean -switches only when selected
+Your page is Live Server ready
+
+
+-->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mission Statement</title>
-    <script src="styles.js"></script> <!--this is the connecting source line for the CSS page-->
+   
     <link rel="stylesheet" href="styles.css">
 
 </head>
-    <body class="dark">
+    <body>
         <select id="themeSelector">
             <option value="light">Light</option>
             <option value="dark"></option>
